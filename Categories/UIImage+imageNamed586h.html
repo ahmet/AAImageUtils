@@ -27,6 +27,8 @@
 					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
+	<option value="overview">Overview</option>
+	
 	
 	
 	
@@ -53,10 +55,14 @@
 		<nav id="tocContainer" class="isShowingTOC">
 			<ul id="toc" role="tree">
 				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
 
 
 
 <li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Class methods">Class methods</a></span></li>
 	
 </ul></li>
 
@@ -103,6 +109,18 @@
 					
 					
 					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>imageNamed586h is a category of UIImage, provides you a method to display 586h images.</p>
+
+<p>UIKit uses the -568h suffix to load a different image on the iPhone 5 only for the Default.png.
+This category adds a method to use in replacement for [UIImage imageNamed:] that searches for
+the file with the suffix for any image.</p>
+					</div>
+					
+					
+					
 					
 					
 					<div class="section section-tasks">
@@ -110,15 +128,15 @@
 						<h2 class="subtitle subtitle-tasks">Tasks</h2>
 						
 						
+						<a title="Class methods" name="task_Class methods"></a>
 						
-						
-
+<h3 class="subsubtitle task-title">Class methods</h3>
 						<ul class="task-list">
 							<li>
 	<span class="tooltip">
 		<code><a href="#//api/name/imageNamed568h:">+&nbsp;imageNamed568h:</a></code>
-		<span class="tooltip"><p>@discussion if the device is not the iPhone 5, it behaves exactly like +imageNamed:
-On iPhone 5 it looks for the image with the -568h prefix, and falls back to just <code>name</code> if it can&rsquo;t find it.</p></span>
+		<span class="tooltip"><p>Initializes an UIImage with given image name. If the device is iPhone it uses -586h
+suffixed image (eg. SuperCool-586h.png), else it behaves like default +imageNamed:</p></span>
 	</span>
 	
 	
@@ -144,8 +162,8 @@ On iPhone 5 it looks for the image with the -568h prefix, and falls back to just
 	
 	
 	<div class="method-subsection brief-description">
-		<p>@discussion if the device is not the iPhone 5, it behaves exactly like +imageNamed:
-On iPhone 5 it looks for the image with the -568h prefix, and falls back to just <code>name</code> if it can&rsquo;t find it.</p>
+		<p>Initializes an UIImage with given image name. If the device is iPhone it uses -586h
+suffixed image (eg. SuperCool-586h.png), else it behaves like default +imageNamed:</p>
 	</div>		
 	
     
@@ -154,7 +172,22 @@ On iPhone 5 it looks for the image with the -568h prefix, and falls back to just
 
     
 	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>name</em></dt>
+			<dd><p>Name of image file (eg. SuperCool.png).</p></dd>
+		</dl>
+		
+	</div>
 	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>UIImage</p>
+	</div>
 	
 	
 	
@@ -162,8 +195,8 @@ On iPhone 5 it looks for the image with the -568h prefix, and falls back to just
 	
 	<div class="method-subsection discussion-section">
 		<h4 class="method-subtitle">Discussion</h4>
-		<p>@discussion if the device is not the iPhone 5, it behaves exactly like +imageNamed:
-On iPhone 5 it looks for the image with the -568h prefix, and falls back to just <code>name</code> if it can&rsquo;t find it.</p>
+		<p>Initializes an UIImage with given image name. If the device is iPhone it uses -586h
+suffixed image (eg. SuperCool-586h.png), else it behaves like default +imageNamed:</p>
 	</div>
 	
 	
