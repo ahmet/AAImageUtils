@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>http://ahmet.github.com/AAImageUtils/AAImageUtils.atom/20121229212657</id>
+    <title type="text">AAImageUtils Documentation</title>
+    <rights>Copyright © 2012 Ahmet AYGÜN. All rights reserved.</rights>
+    <link rel="self" href="http://ahmet.github.com/AAImageUtils/AAImageUtils.atom"></link>
+    <docset:publisherName>Ahmet AYGÜN</docset:publisherName>
+    <docset:publisherID>com.ahmetaygun.documentation</docset:publisherID>
+    <updated>2012-12-29T21:26:57+02:00</updated>
+    <entry>
+        <id>tag:ahmet.github.com,2012-12-29:com.ahmetaygun.AAImageUtils/0.1.0</id>
+        <title type="text">AAImageUtils Documentation</title>
+        <updated>2012-12-29T21:26:57+02:00</updated>
+        <content type="text">AAImageUtils Documentation (v0.1.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://ahmet.github.com/AAImageUtils/com.ahmetaygun.AAImageUtils-0.1.0.xar" length="27326"></link>
+        <docset:identifier>com.ahmetaygun.AAImageUtils</docset:identifier>
+        <docset:version>0.1.0</docset:version>
+        <docset:minimumXcodeVersion>3.0.0</docset:minimumXcodeVersion>
+    </entry>
+</feed>
