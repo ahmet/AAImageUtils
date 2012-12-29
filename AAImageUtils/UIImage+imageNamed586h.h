@@ -28,11 +28,25 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ imageNamed586h is a category of UIImage, provides you a method to display 586h images.
+
+ UIKit uses the -568h suffix to load a different image on the iPhone 5 only for the Default.png.
+ This category adds a method to use in replacement for +[UIImage imageNamed:] that searches for
+ the file with the suffix for any image.
+ */
 @interface UIImage (imageNamed586h)
 
+/**---------------------------------------------------------------------------------------
+ * @name Class methods
+ * ---------------------------------------------------------------------------------------
+ */
 /**
- * @discussion if the device is not the iPhone 5, it behaves exactly like +imageNamed:
- * On iPhone 5 it looks for the image with the -568h prefix, and falls back to just `name` if it can't find it.
+ Initializes an UIImage with given image name. If the device is iPhone it uses -586h
+ suffixed image (eg. SuperCool-586h.png), else it behaves like default +imageNamed:
+
+ @param name Name of image file (eg. SuperCool.png).
+ @return UIImage
  */
 + (UIImage *)imageNamed568h:(NSString *)name;
 
