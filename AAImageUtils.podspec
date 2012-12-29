@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AAImageUtils"
-  s.version      = `cat VERSION`.strip
+  s.version      = "0.1.0"
   s.platform     = :ios
   s.summary      = "Simple framework to let your application's launch image fade-out to its initial view."
   s.homepage     = "https://github.com/ahmet/AAImageUtils"
