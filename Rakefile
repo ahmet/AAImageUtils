@@ -11,7 +11,6 @@ appledoc_options = [
   '--keep-intermediate-files',
   '--keep-undocumented-objects',
   '--keep-undocumented-members',
-  '--docsetutil-path /Applications/Xcode.app/Contents/Developer/usr/bin/docsetutil',
   '--publish-docset',
   '--docset-atom-filename AAImageUtils.atom',
   '--docset-feed-url http://ahmet.github.com/AAImageUtils/%DOCSETATOMFILENAME',
